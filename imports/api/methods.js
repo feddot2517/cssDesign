@@ -13,6 +13,6 @@ Meteor.methods({
 
 Meteor.methods({
     'removeNews'() {
-        News.remove();
+        News.remove({});
     }
 });
