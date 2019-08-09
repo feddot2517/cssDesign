@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+.ant-text-area[type="newsBody"] {
+    text-align: start;
+    color: #73746f;
+}
+
+.ant-input[type="newsBody"]:focus {
+    color: #000000;
+}
+
+.adminPanelHead {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 60pt;
+}

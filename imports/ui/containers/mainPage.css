@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+.line1 {
+    display: flow-root;
+    border-radius: 10px;
+    background: #73746f;
+    width: 700px;
+    height: 5px;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.topLineText {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    display: flow-root;
+    color: black;
+    font-size: 70pt;
+    position: absolute;
+    top: 35%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.startedButton {
+    alignment-baseline: center;
+    width: 220px;
+    height: 20px;
+    display: flow-root;
+    position: absolute;
+    top: 20%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.startedButton .ant-btn {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    background: white;
+    width: 200px;
+    height: 80px;
+    font-size: 25pt;
+}

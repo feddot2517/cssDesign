@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+.animatedHead {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 60pt;
+    animation: move 2s infinite ease-in-out;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+@keyframes move {
+    0% {
+        transform: translateY(-500px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes moveFromDown {
+    0% {
+        transform: translateY(500px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.newsArticle {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 50pt;
+    animation: moveFromDown 2s infinite ease-in-out;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.newsBody {
+    font-family: 'Raleway', sans-serif;
+    color: #363634;
+    text-align: center;
+    font-size: 20pt;
+    animation: moveFromDown 2s infinite ease-in-out;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.ant-carousel .slick-slide {
+    display: flow-root;
+    text-align: center;
+    height: 150px;
+    background: black;
+    overflow: hidden;
+    animation: move 2s infinite ease-in-out;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.ant-carousel .slick-slide h3 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 40pt;
+    overflow: hidden;
+}
+
+.line {
+    display: flow-root;
+    border-radius: 10px;
+    background: #73746f;
+    width: 1000px;
+    height: 5px;
+    position: absolute;
+    top: 110%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
