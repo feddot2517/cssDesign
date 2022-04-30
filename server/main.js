@@ -7,4 +7,4 @@ Meteor.startup(() => {
 });
 
 
-//helloе, worlder
+//helloе, worlderer
